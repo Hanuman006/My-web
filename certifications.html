@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certifications | Sai Vishnu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ═══════════════ NAVBAR ═══════════════ -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand" href="index.html">Sai Vishnu</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+      aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-lg-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="qualifications.html">Qualifications</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="skills.html"><i class="bi bi-bar-chart me-2"></i>Skills</a></li>
+            <li><a class="dropdown-item active" href="certifications.html"><i class="bi bi-patch-check me-2"></i>Certifications</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════ PAGE HEADER ═══════════════ -->
+<div class="page-header">
+  <h2>Certifications</h2>
+  <p>Courses and certifications I've earned</p>
+</div>
+
+<section class="container my-5">
+
+  <div class="alert alert-success d-flex align-items-center mb-4" role="alert">
+    <i class="bi bi-patch-check-fill me-2 fs-5"></i>
+    <span>All certifications are from recognized platforms. Click <strong>Preview</strong> for details.</span>
+  </div>
+
+  <!-- CERTIFICATION CARDS GRID -->
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+    <!-- Cert 1 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <i class="bi bi-patch-check-fill fs-2 text-warning"></i>
+            <span class="badge bg-success">Completed</span>
+          </div>
+          <h5 class="card-title" style="font-family:'Syne',sans-serif;font-weight:700;">Embedded Systems Fundamentals</h5>
+          <p class="card-text small" style="color:#8b949e;">ARM, Microcontrollers, RTOS basics covered in this comprehensive certification.</p>
+          <div class="mb-3 d-flex flex-wrap gap-1">
+            <span class="badge bg-secondary">ARM</span>
+            <span class="badge bg-primary">C</span>
+            <span class="badge bg-warning text-dark">RTOS</span>
+          </div>
+          <p class="small mb-1" style="color:#8b949e;"><i class="bi bi-calendar me-1"></i>Issued: March 2024</p>
+          <p class="small mb-0" style="color:#8b949e;"><i class="bi bi-building me-1"></i>Coursera</p>
+        </div>
+        <div class="card-footer d-flex gap-2">
+          <button class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#certModal1">
+            <i class="bi bi-eye me-1"></i>Preview
+          </button>
+          <a href="#" class="btn btn-sm btn-submit">
+            <i class="bi bi-box-arrow-up-right me-1"></i>View Certificate
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cert 2 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <i class="bi bi-patch-check-fill fs-2 text-primary"></i>
+            <span class="badge bg-success">Completed</span>
+          </div>
+          <h5 class="card-title" style="font-family:'Syne',sans-serif;font-weight:700;">Python for Everybody</h5>
+          <p class="card-text small" style="color:#8b949e;">Data structures, networking, databases and web applications using Python.</p>
+          <div class="mb-3 d-flex flex-wrap gap-1">
+            <span class="badge bg-info">Python</span>
+            <span class="badge" style="background:#374151;">SQL</span>
+            <span class="badge bg-success">Web</span>
+          </div>
+          <p class="small mb-1" style="color:#8b949e;"><i class="bi bi-calendar me-1"></i>Issued: Jan 2024</p>
+          <p class="small mb-0" style="color:#8b949e;"><i class="bi bi-building me-1"></i>Coursera / U of Michigan</p>
+        </div>
+        <div class="card-footer d-flex gap-2">
+          <button class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#certModal2">
+            <i class="bi bi-eye me-1"></i>Preview
+          </button>
+          <a href="#" class="btn btn-sm btn-submit">
+            <i class="bi bi-box-arrow-up-right me-1"></i>View Certificate
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cert 3 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <i class="bi bi-patch-check-fill fs-2 text-success"></i>
+            <span class="badge bg-success">Completed</span>
+          </div>
+          <h5 class="card-title" style="font-family:'Syne',sans-serif;font-weight:700;">IoT &amp; Smart Systems</h5>
+          <p class="card-text small" style="color:#8b949e;">End-to-end IoT system design, sensor interfacing, cloud connectivity.</p>
+          <div class="mb-3 d-flex flex-wrap gap-1">
+            <span class="badge bg-success">IoT</span>
+            <span class="badge bg-warning text-dark">MQTT</span>
+            <span class="badge bg-primary">Cloud</span>
+          </div>
+          <p class="small mb-1" style="color:#8b949e;"><i class="bi bi-calendar me-1"></i>Issued: Aug 2023</p>
+          <p class="small mb-0" style="color:#8b949e;"><i class="bi bi-building me-1"></i>NPTEL</p>
+        </div>
+        <div class="card-footer d-flex gap-2">
+          <button class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#certModal3">
+            <i class="bi bi-eye me-1"></i>Preview
+          </button>
+          <a href="#" class="btn btn-sm btn-submit">
+            <i class="bi bi-box-arrow-up-right me-1"></i>View Certificate
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════ MODALS ═══════════════ -->
+
+<!-- Modal 1 -->
+<div class="modal fade" id="certModal1" tabindex="-1" aria-labelledby="certModal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" style="background:#1f2937;">
+        <h5 class="modal-title" id="certModal1Label" style="font-family:'Syne',sans-serif;font-weight:700;">
+          <i class="bi bi-patch-check-fill text-warning me-2"></i>Embedded Systems Fundamentals
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="filter:invert(1);"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Issued by:</strong> Coursera</p>
+        <p><strong>Date:</strong> March 2024</p>
+        <p><strong>Skills Covered:</strong></p>
+        <div class="d-flex flex-wrap gap-2 mb-3">
+          <span class="badge bg-secondary">ARM Architecture</span>
+          <span class="badge bg-primary">C Programming</span>
+          <span class="badge bg-warning text-dark">RTOS</span>
+          <span class="badge" style="background:#374151;">Microcontrollers</span>
+        </div>
+        <p class="small" style="color:#8b949e;">This certification covers ARM-based microcontroller programming, RTOS fundamentals, and real-time embedded system design principles.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        <a href="#" class="btn btn-submit btn-sm"><i class="bi bi-box-arrow-up-right me-1"></i>View Certificate</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="certModal2" tabindex="-1" aria-labelledby="certModal2Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" style="background:#1f2937;">
+        <h5 class="modal-title" id="certModal2Label" style="font-family:'Syne',sans-serif;font-weight:700;">
+          <i class="bi bi-patch-check-fill text-primary me-2"></i>Python for Everybody
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="filter:invert(1);"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Issued by:</strong> Coursera / University of Michigan</p>
+        <p><strong>Date:</strong> January 2024</p>
+        <p><strong>Skills Covered:</strong></p>
+        <div class="d-flex flex-wrap gap-2 mb-3">
+          <span class="badge bg-info">Python</span>
+          <span class="badge" style="background:#374151;">SQL</span>
+          <span class="badge bg-success">Web Scraping</span>
+          <span class="badge bg-primary">APIs</span>
+        </div>
+        <p class="small" style="color:#8b949e;">Comprehensive Python specialization covering data structures, databases, web technologies, and network applications.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        <a href="#" class="btn btn-submit btn-sm"><i class="bi bi-box-arrow-up-right me-1"></i>View Certificate</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="certModal3" tabindex="-1" aria-labelledby="certModal3Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" style="background:#1f2937;">
+        <h5 class="modal-title" id="certModal3Label" style="font-family:'Syne',sans-serif;font-weight:700;">
+          <i class="bi bi-patch-check-fill text-success me-2"></i>IoT &amp; Smart Systems
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="filter:invert(1);"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Issued by:</strong> NPTEL</p>
+        <p><strong>Date:</strong> August 2023</p>
+        <p><strong>Skills Covered:</strong></p>
+        <div class="d-flex flex-wrap gap-2 mb-3">
+          <span class="badge bg-success">IoT Design</span>
+          <span class="badge bg-warning text-dark">MQTT Protocol</span>
+          <span class="badge bg-primary">Cloud Integration</span>
+          <span class="badge bg-secondary">Sensor Networks</span>
+        </div>
+        <p class="small" style="color:#8b949e;">Covers complete IoT stack from sensor interfacing to cloud dashboards including MQTT, HTTP protocols, and smart system design.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        <a href="#" class="btn btn-submit btn-sm"><i class="bi bi-box-arrow-up-right me-1"></i>View Certificate</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer>
+  <div class="container">
+    <p class="mb-2">© 2025 Jamalpur Sai Vishnu. All rights reserved.</p>
+    <div class="d-flex justify-content-center gap-3">
+      <a href="/cdn-cgi/l/email-protection#d8abb9b1aeb1abb0b6adf6b2b9b5b9b4a8adaa98bfb5b9b1b4f6bbb7b5"><i class="bi bi-envelope-fill fs-5"></i></a>
+      <a href="#"><i class="bi bi-github fs-5"></i></a>
+      <a href="#"><i class="bi bi-linkedin fs-5"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudf
